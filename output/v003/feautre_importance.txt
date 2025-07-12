@@ -1,0 +1,40 @@
+=== TOP 10 MOST IMPORTANT FEATURES ===
+
+Random Forest:
+                         Feature  Importance
+0                            מ"ר      0.2273
+2                          חדרים      0.1717
+13         size_vs_property_type      0.1358
+6                          שכונה      0.0638
+14          size_vs_neighborhood      0.0617
+12                  sqm_per_room      0.0565
+11                  building_age      0.0437
+4                      שנת בנייה      0.0402
+9                       שנת עסקה      0.0382
+15  building_age_vs_neighborhood      0.0323
+
+XGBoost:
+                  Feature  Importance
+0                     מ"ר      0.3117
+2                   חדרים      0.2371
+13  size_vs_property_type      0.0775
+6                   שכונה      0.0678
+9                שנת עסקה      0.0475
+14   size_vs_neighborhood      0.0367
+12           sqm_per_room      0.0359
+1                 סוג נכס      0.0334
+4               שנת בנייה      0.0321
+11           building_age      0.0209
+
+ElasticNet:
+                         Feature  Importance
+15  building_age_vs_neighborhood      0.2089
+4                      שנת בנייה      0.1431
+11                  building_age      0.1431
+2                          חדרים      0.1130
+0                            מ"ר      0.0783
+12                  sqm_per_room      0.0635
+9                       שנת עסקה      0.0445
+14          size_vs_neighborhood      0.0409
+13         size_vs_property_type      0.0398
+6                          שכונה      0.0301
