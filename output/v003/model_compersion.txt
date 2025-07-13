@@ -1,0 +1,18 @@
+=== PERFORMANCE SUMMARY ===
+
+Best performing models by R² on Test Set:
+                     Dataset      R²          RMSE           MSE
+21        XGBoost Opt (Test)  0.7960  6.005094e+05  3.606115e+11
+9       Random Forest (Test)  0.7851  6.163728e+05  3.799155e+11
+12            XGBoost (Test)  0.7848  6.167367e+05  3.803641e+11
+18  Random Forest Opt (Test)  0.7810  6.222512e+05  3.871965e+11
+6   Linear Regression (Test)  0.3554  1.067531e+06  1.139622e+12
+15         ElasticNet (Test)  0.3553  1.067580e+06  1.139728e+12
+1       Mean Baseline (Test) -0.0000  1.329623e+06  1.767897e+12
+3     Median Baseline (Test) -0.0677  1.373904e+06  1.887612e+12
+
+=== HPO IMPROVEMENT ANALYSIS ===
+           Model  Before HPO (R²)  After HPO (R²)  Improvement
+0  Linear Models           0.3554          0.3553      -0.0001
+1  Random Forest           0.7851          0.7810      -0.0041
+2        XGBoost           0.7848          0.7960       0.0112

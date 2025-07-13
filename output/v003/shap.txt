@@ -1,0 +1,12 @@
+=== TOP 10 FEATURES BY SHAP VALUES (XGBoost) ===
+                         Feature  Mean_SHAP_Importance
+0                            מ"ר         514391.750000
+2                          חדרים         192143.312500
+6                          שכונה         183580.562500
+9                       שנת עסקה         135361.921875
+14          size_vs_neighborhood         102519.140625
+4                      שנת בנייה         101047.554688
+13         size_vs_property_type          76735.906250
+15  building_age_vs_neighborhood          53366.105469
+5                    קומות במבנה          45281.871094
+3                           קומה          26550.236328
